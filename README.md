@@ -3,16 +3,16 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/ivde/seekbar
+eco plugin install https://github.com/kjeco/seekbar
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/ivde/seekbar
+eco plugin uninstall https://github.com/kjeco/seekbar
 ```
 
-### 组件 vdSeekbar 属性
+### 组件 ecoSeekbar 属性
 
 | 属性 | 作用 |
 | --- | --- |
@@ -40,7 +40,7 @@ vd plugin uninstall https://github.com/ivde/seekbar
 ```
 <template>
     <div style="align-items: center">
-        <vdSeekbar ref="seek" :max="total" @change="change" class="seek" color="#ff0000"></vdSeekbar>
+        <ecoSeekbar ref="seek" :max="total" @change="change" class="seek" color="#ff0000"></ecoSeekbar>
         <text style="font-size:24px">{{progress}}-{{total}}</text>
         <button class="button" text="手动设置 5000" @click="set"></button>
     </div>

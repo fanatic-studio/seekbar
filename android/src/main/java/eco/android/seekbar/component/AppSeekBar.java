@@ -1,4 +1,4 @@
-package vd.android.seekbar.component;
+package eco.android.seekbar.component;
 
 import android.content.Context;
 import android.graphics.Color;

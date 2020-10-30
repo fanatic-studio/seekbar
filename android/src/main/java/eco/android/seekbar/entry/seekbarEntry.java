@@ -1,12 +1,12 @@
-package vd.android.seekbar.entry;
+package eco.android.seekbar.entry;
 
 import android.content.Context;
 
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.common.WXException;
 
-import app.vd.framework.extend.annotation.ModuleEntry;
-import vd.android.seekbar.component.AppSeekBar;
+import app.eco.framework.extend.annotation.ModuleEntry;
+import eco.android.seekbar.component.AppSeekBar;
 
 @ModuleEntry
 public class seekbarEntry {
@@ -18,7 +18,7 @@ public class seekbarEntry {
     public void init(Context content) {
 
         try {
-            WXSDKEngine.registerComponent("vdSeekbar", AppSeekBar.class);
+            WXSDKEngine.registerComponent("ecoSeekbar", AppSeekBar.class);
         } catch (WXException e) {
             e.printStackTrace();
         }

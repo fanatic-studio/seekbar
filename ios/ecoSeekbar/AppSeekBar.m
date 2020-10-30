@@ -12,7 +12,7 @@
 
 @implementation AppSeekBar
 
-WX_PlUGIN_EXPORT_COMPONENT(vdSeekbar, AppSeekBar)
+WX_PlUGIN_EXPORT_COMPONENT(ecoSeekbar, AppSeekBar)
 WX_EXPORT_METHOD(@selector(setProgress:))
 
 - (instancetype)initWithRef:(NSString *)ref type:(NSString *)type styles:(NSDictionary *)styles attributes:(NSDictionary *)attributes events:(NSArray *)events weexInstance:(WXSDKInstance *)weexInstance
